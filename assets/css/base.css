@@ -22,6 +22,12 @@ body {
   font-family: "Sora", sans-serif;
 }
 
+.container {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin: 0 auto;
+}
+
 .btn {
   display: inline-flex;
   height: 60px;
@@ -34,4 +40,19 @@ body {
   border-radius: 99px;
   background-color: #2e80ce;
   cursor: pointer;
+}
+
+.section__heading {
+  color: #10375c;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 60px; /* 120% */
+  letter-spacing: -1px;
+}
+.section__desc {
+  margin-top: 18px;
+  color: #575f66;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 30px; /* 166.667% */
 }
