@@ -409,6 +409,7 @@
   width: 36px;
   height: 36px;
   outline: none;
+  margin: 0;
   border-radius: 50%;
   border: 1px solid #575f66;
   background: #fff;
@@ -427,4 +428,54 @@
 
 .member__ctrl-btn i {
   color: #575f66;
+}
+
+.install {
+  padding: 170px 0;
+}
+.install__inner {
+  display: flex;
+  align-items: center;
+  margin-top: 95px;
+  border-radius: 4px;
+  background-color: #2e80ce;
+}
+.install__img {
+  display: block;
+  width: 284px;
+  margin-top: -95px;
+  margin-left: 70px;
+  margin-right: 160px;
+}
+.install__content {
+}
+
+.install__heading {
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 120%; /*  */
+  letter-spacing: -1px;
+  max-width: 489px;
+}
+
+.install__desc {
+  color: #fff;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 166.667%; /*  */
+  max-width: 586px;
+}
+
+.install__row {
+  margin-top: 38px;
+  display: flex;
+  column-gap: 28px;
+}
+.install__btn {
+  cursor: pointer;
+}
+.install__btn-img {
+  height: 40px;
 }
