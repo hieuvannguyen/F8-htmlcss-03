@@ -56,3 +56,32 @@ body {
   font-weight: 300;
   line-height: 30px; /* 166.667% */
 }
+.control {
+  display: flex;
+  gap: 18px;
+}
+.ctrl-btn {
+  width: 36px;
+  height: 36px;
+  outline: none;
+  margin: 0;
+  border-radius: 50%;
+  border: 1px solid #575f66;
+  background: #fff;
+  transition: 0.25s;
+}
+.ctrl-btn:hover {
+  background: #2e80ce;
+  cursor: pointer;
+  border: none;
+}
+
+.ctrl-btn:hover i {
+  color: #ffffff;
+}
+
+.ctrl-btn i {
+  color: #575f66;
+}
+
+

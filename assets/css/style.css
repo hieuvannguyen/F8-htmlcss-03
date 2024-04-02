@@ -400,34 +400,8 @@
   line-height: 185.714%; /*  */
 }
 .team__control {
-  display: flex;
   justify-content: center;
   margin-top: 38px;
-  gap: 18px;
-}
-.member__ctrl-btn {
-  width: 36px;
-  height: 36px;
-  outline: none;
-  margin: 0;
-  border-radius: 50%;
-  border: 1px solid #575f66;
-  background: #fff;
-  transition: 0.25s;
-}
-
-.member__ctrl-btn:hover {
-  background: #2e80ce;
-  cursor: pointer;
-  border: none;
-}
-
-.member__ctrl-btn:hover i {
-  color: #ffffff;
-}
-
-.member__ctrl-btn i {
-  color: #575f66;
 }
 
 .install {
@@ -478,4 +452,71 @@
 }
 .install__btn-img {
   height: 40px;
+}
+
+.blogs {
+  padding: 170px 0;
+}
+
+.blogs__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blogs__content {
+  max-width: 470px;
+}
+
+.blogs__link {
+  display: inline-block;
+  margin-top: 28px;
+  color: #10375c;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 155.556%; /* */
+  text-decoration-line: underline;
+  text-underline-offset: 5px;
+}
+.blog__ctrl {
+  margin-top: 28px;
+}
+
+.blog__list {
+  display: flex;
+  gap: 30px;
+}
+.blogs-item {
+  flex: 1;
+  width: 270px;
+  border-radius: 12px;
+  border: 1px solid #e8ebee;
+  background: #fff;
+}
+.blogs-item__thumb {
+  width: 100%;
+  object-fit: cover;
+  height: 172px;
+  border-radius: 12px 12px 0px 0px;
+}
+.blogs-item__body {
+  padding: 20px 23px;
+}
+.blogs-item__heading {
+  color: #10375c;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 162.5%; /* */
+}
+.blogs-item__desc {
+  margin-top: 10px;
+  color: #575f66;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 171.429%; /*  */
+}
+.blogs-item__read-more {
+  margin-top: 12px;
+  color: #2e80ce;
+  font-size: 1.4rem;
+  font-weight: 400;
 }
